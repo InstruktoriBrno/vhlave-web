@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: 'title';
-  src: url("../fonts/Lora-VariableFont_wght.ttf") format("opentype");
+  src: url("../fonts/Pacifico-Regular.ttf") format("opentype");
 }
 
 @font-face {
@@ -142,9 +142,8 @@ h6 {
 }
 
 ul, ol {
-  margin: 0px;
+  margin-left: 10%;
   padding: 0px;
-  list-style-type: none;
 }
 
 p {
@@ -221,8 +220,31 @@ body {
   z-index: 5;
   background: #074882ff;
   background-size: 200%;
-  margin-bottom:-20px; 
-  margin-top:10px;
+  margin-bottom:0px; 
+  margin-top:20px;
+}
+
+.normal-btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 5px 20px;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 0;
+  color: rgba(146, 215, 255, 1);
+  cursor: pointer;
+  z-index: 5;
+  background: #074882ff;
+  background-size: 200%;
+  margin-bottom:10px; 
+  margin-top:20px;
 }
 
 .main-btn.active, .main-btn:hover {
@@ -302,8 +324,42 @@ body {
 }
 
 
+.photo-text-box{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  display: grid;
+  text-align: center;
+  border-radius: 20px;
+  background: rgba(146, 215, 255, 0.9);/*rgba(0, 100, 171, 0.6);*/
+}
 
+.photo-section-title .title {
+  color: #eff3f6;
+  font-size: 38px;
+  line-height: 42px;
+  text-align: center;
+}
 
+@media (max-width: 767px) {
+  .photo-section-title .title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .photo-section-title .title {
+    font-size: 30px;
+  }
+}
+
+.photo-image {
+  width:90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /*===========================
       02.HEADER css
@@ -734,7 +790,7 @@ body {
   .header-hero-content .header-title {
     font-size: 60px;
     text-align: center;
-    padding-bottom: 30px
+    padding-bottom: 10px
   }
 }
 
@@ -742,7 +798,7 @@ body {
   .header-hero-content .header-title {
     font-size:70px;
     text-align: center;
-    padding-bottom: 30px
+    padding-bottom: 10px
   }
 }
 
@@ -775,15 +831,15 @@ body {
   /*background-repeat: no-repeat;*/
   /*background-size: cover;*/
   /*background-position: top center;*/
-  padding-top: 38%;
-  padding-bottom: 220px;
+  padding-top: 32%;
+  padding-bottom: 50px;
   text-align: justify;
   z-index: 1;
 }
 
 @media (max-width: 767px) {
   .uvod-area {
-    padding-top: 38%;
+    padding-top: 32%;
     padding-bottom: 150px;
   }
 }
@@ -810,12 +866,15 @@ body {
   background: rgba(146, 215, 255, 0.9);/*rgba(0, 100, 171, 0.6);*/
 }
 
+
 .info-image {
   width: 470px;
   margin-left: auto;
   margin-right: auto;
   display: block;
   margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .info-content {
@@ -828,6 +887,9 @@ body {
   color: #074882ff;/*#eff3f6;*/
 }
 
+.info-content .sub-title{
+  font-size: 20px;
+}
 
 /*===========================
       05.INFO css
@@ -846,6 +908,10 @@ body {
   /*color: #eff3f6;*/
 }
 
+.team-content{
+  text-align: center;
+}
+
 .team-content .text {
   text-align: center;
   margin-top: 15px;
@@ -860,109 +926,29 @@ body {
   margin-top: 15px;
 }
 
+.team-text-box{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  border-radius: 20px;
+  background: rgba(146, 215, 255, 0.9);/*rgba(0, 100, 171, 0.6);*/
+}
+
+.team-content img{
+  width: 70%;
+  border-radius: 10px;
+}
+
 /*===========================
        07.TEAM css
 ===========================*/
 .team-area{
   /*background-color: #0080d2;*/
   padding-bottom: 50px;
-}
-
-.single-team {
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
-  box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
-  overflow: hidden;
-  border-radius: 50px;
-  background-color: #0064ab;
-  margin-top: 50px;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.single-team .team-image {
-  position: relative;
-}
-
-.single-team .team-info{
-  padding: 20px;
-  margin-top: -20px;
-}
-
-.single-team .team-info .text{
-  text-align: center;
-}
-
-.single-team .team-image img {
-  width: 100%;
-  height: 100%;
-}
-
-.single-team .team-image .social {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 25px;
-}
-
-.single-team .team-image .social ul {
-  background-color: rgba(255, 255, 255, 0.23);
-  display: inline-block;
-  border-radius: 50px;
-  padding: 0 13px;
-  position: relative;
-  z-index: 5;
-  overflow: hidden;
-}
-
-.single-team .team-image .social ul::before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-
-.single-team .team-image .social ul li {
-  display: inline-block;
-}
-
-.single-team .team-image .social ul li a {
-  padding: 15px 13px;
-  color: #0064ab;
-}
-
-.single-team .team-content {
-  padding: 30px;
-}
-
-.single-team .team-content .holder-name{
-  font-size: 20px;
-  background-color: #0064ab;
-  color: #eff3f6;
-}
-
-.single-team .team-content .text {
-  margin-top: 5px;
-}
-
-.single-team:hover .team-image .social ul::before {
-  opacity: 1;
-  visibility: visible;
 }
 
 
@@ -1197,9 +1183,13 @@ body {
 .stick-5 { top: 85.36%; left: 33%; transform: translate(-110px, -50px); }
 .stick-6 { top: 85.36%; left: 67%; transform: translate(-110px, -50px); }
 
+.team-info{
+  margin-top: 10px;
+}
+
 .team-info .text{
-  font-size: 12px;
-  max-width: 85%;
+  font-size: 15px;
+  max-width: 90%;
   text-align: left;
   margin: auto;
   color: #074882ff;
@@ -1208,7 +1198,11 @@ body {
 
 .team-name{
   color: #eff3f6;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 10px;
 }
+
 
 .team-box{
   position: absolute;
@@ -1246,33 +1240,6 @@ body {
   margin-bottom: 10px;
   max-width: 100%;
   height: auto;
-}
-
-
-.medailonky{
-  background-image: url(../images/kormidlo_nobackground.png);
-  background-size: contain;
-  background-position: 48% 15px;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 1200px) {
-  .medailonky {
-    background-position: 48% -10px;
-  }
-}
-
-@media (max-width: 987px) {
-  .medailonky {
-    background-position: 48% 30px;
-  }
-}
-
-
-@media (max-width: 767px) {
-  .medailonky {
-    background-image: none;
-  }
 }
 
 
