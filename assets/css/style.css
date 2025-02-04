@@ -840,7 +840,7 @@ body {
 @media (max-width: 767px) {
   .uvod-area {
     padding-top: 32%;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
   }
 }
 
@@ -1138,7 +1138,7 @@ body {
 .text-box {
   margin-top: 50px;
   padding: 50px;
-  width: 70%;
+  width: 100%;
   display: grid;
   border-radius: 20px;
   background: rgba(146, 215, 255, 0.9);
