@@ -154,7 +154,7 @@ p {
 }
 
 body {
-  background-image: url(/assets/images/mozek_small.svg),url(/assets/images/mozekoraznzovy-volnastrana.png);
+  background-image: url(../images/mozek_small.svg),url(../images/mozekoraznzovy-volnastrana.png);
   /*url(../images/voda.png), 
   url(../images/ostrov_dole.png), 
   url(../images/pevnina.png), 
