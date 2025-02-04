@@ -154,7 +154,7 @@ p {
 }
 
 body {
-  background-image: url(/assets/images/mozekoraznzovy.png),url(/assets/images/mozekoraznzovy-volnastrana.png);
+  background-image: url(/assets/images/mozek_small.svg),url(/assets/images/mozekoraznzovy-volnastrana.png);
   /*url(../images/voda.png), 
   url(../images/ostrov_dole.png), 
   url(../images/pevnina.png), 
@@ -746,13 +746,13 @@ body {
 .header-hero-content .header-sub-title {
   font-family: "title";
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   color: rgb(255, 255, 255);
   padding-bottom: 150px;
 }
 @media (max-width: 1050px) {
   .header-hero-content .header-sub-title {
-    font-size: 30px;
+    font-size: 50px;
     padding-bottom: 150px;
   }
 }
@@ -771,18 +771,18 @@ body {
 
 .header-hero-content .header-title {
   font-family: "title";/*"Jessy";*/
-  font-size: 120px;
+  font-size: 140px;
   text-align: center;
   color: rgb(255, 255, 255);
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 } 
 
 
 @media (max-width: 1050px) {
   .header-hero-content .header-title {
-    font-size: 90px;
+    font-size: 100px;
     text-align: center;
-    padding-bottom: 40px
+    padding-bottom: 10px
   }
 }
 
@@ -790,7 +790,7 @@ body {
   .header-hero-content .header-title {
     font-size: 60px;
     text-align: center;
-    padding-bottom: 10px
+    padding-bottom: 8px
   }
 }
 
@@ -798,7 +798,7 @@ body {
   .header-hero-content .header-title {
     font-size:70px;
     text-align: center;
-    padding-bottom: 10px
+    padding-bottom: 8px
   }
 }
 
@@ -831,7 +831,7 @@ body {
   /*background-repeat: no-repeat;*/
   /*background-size: cover;*/
   /*background-position: top center;*/
-  padding-top: 32%;
+  padding-top: 33%;
   padding-bottom: 50px;
   text-align: justify;
   z-index: 1;
