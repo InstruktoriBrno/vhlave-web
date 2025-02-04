@@ -1190,7 +1190,7 @@ body {
 .team-info .text{
   font-size: 15px;
   max-width: 90%;
-  text-align: left;
+  text-align: justify;
   margin: auto;
   color: #074882ff;
 
