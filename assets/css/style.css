@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: 'title';
-  src: url("../fonts/Pacifico-Regular.ttf") format("opentype");
+  src: url("../fonts/Courgette-Regular.ttf") format("opentype");
 }
 
 @font-face {
@@ -711,6 +711,14 @@ body {
 
 .header-hero-content{
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  display: grid;
+  border-radius: 20px;
+  background: #b07070da
 }
 
 
@@ -748,18 +756,18 @@ body {
   text-align: center;
   font-size: 60px;
   color: rgb(255, 255, 255);
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 @media (max-width: 1050px) {
   .header-hero-content .header-sub-title {
     font-size: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 767px) {
   .header-hero-content .header-sub-title {
     font-size: 25px;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
   }
 }
 
@@ -774,7 +782,7 @@ body {
   font-size: 140px;
   text-align: center;
   color: rgb(255, 255, 255);
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 } 
 
 
